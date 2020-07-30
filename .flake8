@@ -1,0 +1,5 @@
+[flake8]
+ignore =
+	W503,		# line break before binary operator (follow PEP8 style guide)
+	E402,		# module level import not at top of file (because gi requires to query for versions before importing)
+max-line-length = 127
